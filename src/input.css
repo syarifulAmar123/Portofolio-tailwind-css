@@ -7,13 +7,13 @@ body {
 }
 
 .navbar-fixed {
-  @apply fixed z-[9999] bg-white bg-opacity-80 backdrop-blur-sm;
+  @apply fixed z-[9999] bg-white bg-opacity-80 backdrop-blur-sm dark:bg-black dark:bg-opacity-50;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
 
 @layer components {
   .hamburger-line {
-    @apply w-[30px] h-[2px] my-2 block bg-black;
+    @apply w-[30px] h-[2px] my-2 block bg-black dark:bg-slate-300;
   }
 
   .hamburger-active .hamburger-line:nth-child(1) {
